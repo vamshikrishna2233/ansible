@@ -1,0 +1,36 @@
+#list of persons
+- name: vamshikrishna
+  dob: 04-07-1999
+  #this is a map 
+  address:
+    city: hyd
+    country: india
+    street: indira nagar
+    dno: 10-3-1
+  #this is a list of addresses
+  addresses:
+  - type: perm
+    city: hyd
+    country: india
+  - type: curr
+    city: california
+    country: US
+
+#list of persons
+- name: sundhar
+  dob: 10-07-1999
+  #this is a map 
+  address:
+    city: hyd
+    country: india
+    street: indira nagar
+    dno: 10-3-23
+  #this is a list of addresses
+  addresses:
+  - type: perm
+    city: hyd
+    country: india
+  - type: curr
+    city: california
+    country: US
+
