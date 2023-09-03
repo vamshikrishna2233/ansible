@@ -13,5 +13,5 @@
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}"
 
-1. command lines variables
-2. task level
+#1. command lines variables
+#2. task level
