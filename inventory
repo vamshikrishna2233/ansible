@@ -4,7 +4,7 @@
 
 
 [mongodb]
-roboshop-us-dev-db-mongodb-01.krishnadevops.online
+172.31.40.102
 
 
 [mongodb:vars]
