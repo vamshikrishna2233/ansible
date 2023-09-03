@@ -4,10 +4,10 @@
     NAME: sivakumar-play
   # vars_files:
   # - variables.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: please enter Trainer name
-    private: false 
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: please enter Trainer name
+  #   private: false 
   tasks:
   - name: variable at task level
     ansible.builtin.debug:
@@ -16,3 +16,4 @@
 #1. command lines variables
 #2. task level
 #3. vars_files
+#4. prompt
