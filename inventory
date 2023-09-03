@@ -10,7 +10,7 @@ roboshop-us-dev-db-mongodb-01.krishnadevops.online
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
-NAME: sivakumar-inventory
+NAME:sivakumar-inventory
 
 [mysql]
 roboshop-us-dev-db-mysql-01.krishnadevops.online
