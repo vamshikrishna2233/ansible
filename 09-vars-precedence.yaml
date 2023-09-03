@@ -10,7 +10,8 @@
     private: false #you can see the value entered on screen
   tasks:
   - name: variable at task level
-    vars:
-      NAME: sivakumar-task
     ansible.builtin.debug:
       msg: "Trainer name is: {{NAME}}"
+
+1. command lines variables
+2. task level
