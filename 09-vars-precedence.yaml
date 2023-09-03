@@ -5,7 +5,7 @@
   vars_files:
   - variables.yaml
   vars_prompt:
-  - name: USERNAME
+  - name: NAME
     prompt: please enter Trainer name
     private: false #you can see the value entered on screen
   tasks:
