@@ -1,0 +1,6 @@
+- name: varaibles from command line
+  hosts: localhost
+  tasks:
+  - name: print varaible from command line
+    ansible.builtin.debug:
+      msg: "The value of variable course is {{COURSE}}"
